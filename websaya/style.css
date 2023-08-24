@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+@media screen and (max-widht: 786px) {
+    #about {
+        width: 90px;
+        padding: 0;
+        flex-direction: column;
+    }
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: auto;
+    padding: auto;
+    background-color: #1a1a1d;
+}
+
+header {
+    display: inline;
+}
+
+nav {
+    background-color: #950740;
+    padding: 3px;
+    top: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+}
+
+nav:after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+nav .logo {
+    float: left;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 70px;
+    padding-top: 5px;
+    margin-left: 50px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 40px;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li {
+    display: inline-block;
+    background: #950740;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: #fff;
+    line-height: 50px;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 15px;
+}
+
+nav ul li a:hover {
+    background-color: #950740;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 0 5px #683636,
+        0 0 10px #381313;
+}
+
+main{
+    margin: 10px;
+}
+
+#about{
+    display: flex;
+}
+
+
+.foto{
+    margin-top: 100px;
+   width: 300px;
+}
+
+
+
+article .content1{
+    padding: 20px;
+    margin: auto;
+    width: 80%;
+    color: #fff;
+}
+
+article .content1 h3{
+    font-size: 26px;
+    margin: 3px;
+    text-align: center;
+}
+
+article .content1 h2 {
+    font-size: 70px;
+    margin: 3px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+  
+.wrapper{
+    margin-left: 540px;
+}
+
+  .ling{
+    background-color: #950740;
+    display: block;
+    font-size: 16px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+    letter-spacing: 2px;
+    transition: all .25s;
+  }
+  
+    .ling:hover{
+    letter-spacing: 4px;
+  }
+
+  #skill{
+    margin: 10px;
+  }
+
+  #skill h2{
+    text-align: center;
+    font-size: 32px;
+    color: #fff;
+  }
+  
+  .card{
+    background-color: #950740;
+    padding: 10px;
+    width: 30%;
+    margin: 10px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+  }
+
+  .content2 {
+    display: flex;
+    color: #fff;
+  }
+
+  .card img{
+    width: 100%;
+    margin: auto;
+  }
+
+  .card h3{
+    text-align: center;
+  }
+
+  fieldset{
+    background-color: blue;
+    margin: 10px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    padding: 30px;
+    color: #fff;
+  }
+
+  fieldset h2, p{
+    text-align: center;
+  }
+
+  input[type='text'], input[type='email'] {
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  textarea{
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+  }
+
+  fieldset{
+    background-color: #950740;
+    padding: 15px;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    margin-top: 80px;
+  }
+
+  footer {
+    padding: 20px;
+    color: #fff;
+  }
+
+  .article .image{
+    width: 100%;
+    padding: 0;
+}
